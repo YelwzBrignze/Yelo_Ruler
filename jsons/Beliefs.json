@@ -1,5 +1,18 @@
 [
 {
+        "name": "Home and Hearth",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter] <in cities with at least [5] [Population]>"
+        ]
+    },
+{
+        "name": "Public Prayer",
+        "type": "Follower",
+        "uniques": ["[+1 Faith, +1 Culture] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+{
 		"name": "Funeral Rites",
 		"type": "Enhancer",
 		"uniques": ["[+25 Faith, +25 Culture] whenever a Great Person is expended"]
