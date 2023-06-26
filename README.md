@@ -1,5 +1,5 @@
 # Yelwz_King_Plus
-Mod for Yelwz_King_Plus mod, from Deciv and Alpha.
+Mod for Yelwz_King_Plus mod, from Deciv and next is Alpha.
 My extras for Leader Mission mod for Jiangeshi
 Not anymore Redodeciv - Leadmiss Deciv
 ## Note for creator
