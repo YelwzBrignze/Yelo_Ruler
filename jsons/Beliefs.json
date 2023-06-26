@@ -1,1 +1,12 @@
-
+[
+{
+		"name": "Funeral Rites",
+		"type": "Enhancer",
+		"uniques": ["[+25 Faith, +25 Culture] whenever a Great Person is expended"]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": ["[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
+	}
+]
