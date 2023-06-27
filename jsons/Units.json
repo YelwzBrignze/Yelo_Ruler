@@ -1,0 +1,196 @@
+[
+{
+		"name": "Philosopher",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Censor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+	//// Great People
+	{
+		"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Seer",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Oracle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Smuggler",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"May enter foreign tiles without open borders",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			"Can instantly construct a [Narcotics farm] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Slave Trader",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Mad Scientist",
+		"replaces": "Great General",
+		"uniqueTo": "Hexlock",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can hurry technology research",
+			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Gangboss",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bugler",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 5
+	},
+	{
+		"name": "Upyr",
+		"uniqueTo": "Proklyatyye",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"promotions": ["Gas Mask", "Radioactive"],
+		"movement": 2
+	},
+	{
+		"name": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+1] population [in all cities] <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
+	}
+]
