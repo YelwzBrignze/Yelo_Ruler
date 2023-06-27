@@ -1,0 +1,203 @@
+[
+  {
+		"name": "Settlement",
+		"gold": 1,
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Science] for each adjacent [Forest]",
+			"[+1 Science] for each adjacent [Jungle]",
+			"[+1 Food] for each adjacent [Food source]",
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Civil Service]>",
+			"Removes removable features when built",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Outpost",
+		"production": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Provides [1] [Slaves]",
+			"Removes removable features when built",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Narcotics farm",
+		"culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Culture, +1 Food] <after discovering [Hydroponics]>",
+			"Provides [1] [Narcotics]",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Prison farm",
+		"production": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Provides [1] [Slaves]",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Oracle",
+		"faith": 4,
+		"culture": 1,
+		"happiness": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Provides [1] [Oil]",
+			"Provides [1] [Oil] <after discovering [Biology]>",
+			"Removes removable features when built",
+			"[+1 Culture, +1 Faith] <after discovering [Chemistry]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+  {
+		"name": "Drum site",
+		"uniqueTo": "Proklyatyye",
+		"terrainsCanBeBuiltOn": ["Fallout", "Toxic Waste"],
+		"food": 3,
+		"gold": 2,
+		"production": 2,
+		"turnsToBuild": 7,
+		"uniques": [
+			"[+1 Production] <after discovering [Chemistry]>",
+			"[+1 Food, +1 Gold] <after discovering [Decontamination]>",
+			"Provides [1] [Uranium] <in [Fallout] tiles> <after discovering [Decontamination]>",
+			"Provides [1] [Oil] <in [Toxic Waste] tiles> <after discovering [Decontamination]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "I"
+	},
+  {
+		"name": "Seminary",
+		"faith": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Culture, +1 Faith] <after discovering [Education]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Crystal Refinery",
+		"science": 2,
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Refinery",
+			"[+2 Science, +1 Gold] for each adjacent [Refinery]",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Great Improvement",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Factory farm",
+		"food": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Food source",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] <after discovering [Botany]>",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Hydroponics]>",
+			"[+1 Production, +1 Food] <after discovering [Genetics]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+
+	// Refineries
+	{
+		"name": "C1F3 Refinery",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C1F3]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "C2N14 Refinery",
+		"gold": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C2N14]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "C8H17 Refinery",
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C8H17]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "SbF5 Refinery",
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [SbF5]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "VX Refinery",
+		"faith": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [VX]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    }
+]
