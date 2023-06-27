@@ -1,0 +1,27 @@
+[
+{
+        "name": "Industrial",
+        "friendBonusUniques": [
+            "[+3 Production] [in capital] <before the [Industrial era]>",
+            "[+6 Production] [in capital] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+3 Production] [in capital] <before the [Industrial era]>", "[+2 Production] [in all cities] <before the [Industrial era]>",
+            "[+6 Production] [in capital] <starting from the [Industrial era]>", "[+4 Production] [in all cities] <starting from the [Industrial era]>"
+        ],
+        "color": [220, 100, 15]
+    },
+  {
+        "name": "Commerce",
+        "friendBonusUniques": [
+            "[+2 Gold] <before the [Industrial era]>",
+            "[+3 Gold] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold] <before the [Industrial era]>",
+            "[+3 Gold] <starting from the [Industrial era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    }
+]
