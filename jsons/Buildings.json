@@ -5,7 +5,7 @@
 		"percentStatBonus": {"faith": 10},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Social Engineering",
+		"requiredTech": "Telecommunications",
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
 			"Hidden when religion is disabled",
@@ -15,47 +15,51 @@
 	},
 	{
 		"name": "Pyramid",
-		"cost": 0,
+		"cost": 120,
+		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Garden",
-		"cost": 0,
+		"cost": 120,
+		"hurryCostModifier": 25,
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
 		"food": 3,
 		"specialistSlots": { "Farmer": 1 },
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Holy Fortress",
-		"cost": 0,
+		"cost": 120,
+		"hurryCostModifier": 25,
 		"faith": 1,
 		"culture": 1,
 		"happiness": 1,
 		"cityStrength": 6,
 		"cityHealth": 25,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Dojo",
-		"cost": 0,
+		"cost": 120,
+		"hurryCostModifier": 25,
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
 		"uniques": [
-			"Unbuildable",
 			"Hidden when religion is disabled",
 			"New [Military] units start with [15] Experience [in this city]"
 		]
 	},
 	{
 		"name": "Divinity School",
-		"cost": 0,
+		"cost": 120,
+		"hurryCostModifier": 25, 
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
@@ -63,7 +67,6 @@
 		"percentStatBonus": {"science": 10},
 		"specialistSlots": { "Scientist": 1 },
 		"uniques": [
-			"Unbuildable",
 			"Hidden when religion is disabled"
 		]
 	},
