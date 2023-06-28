@@ -73,7 +73,6 @@
     // Civilization Unique
 	{
 		"name": "Compound Mixer",
-		"uniqueTo": "Hexlock",
 		"specialistSlots": { "Engineer": 1 },
 		"cost": 120,
 		"hurryCostModifier": 25,
