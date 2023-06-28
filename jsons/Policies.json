@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Adaptation",
-		"era": "Decivilized era",
+		"era": "Modern era",
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 30,
@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Expansionism",
-		"era": "Decivilized era",
+		"era": "Modern era",
 		"priorities": {
 			"Neutral": 30,
 			"Cultural": 0,
@@ -147,7 +147,7 @@
 	},
 	{
 		"name": "Sovereignty",
-		"era": "Decivilized era",
+		"era": "Modern era",
 		"priorities": {
 			"Neutral": 10,
 			"Cultural": 10,
@@ -220,7 +220,7 @@
 	},
 	{
 		"name": "Theocracy",
-		"era": "Neofeudal era",
+		"era": "Atomic era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -293,7 +293,7 @@
 	},
 	{
 		"name": "Rationalism",
-		"era": "Neofeudal era",
+		"era": "Atomic era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 0,
@@ -369,7 +369,7 @@
 	},
 	{
 		"name": "Constitution",
-		"era": "Neofeudal era",
+		"era": "Atomic era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -447,7 +447,7 @@
 	},
 	{
 		"name": "Supremacy",
-		"era": "Neofeudal era",
+		"era": "Atomic era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 0,
@@ -526,7 +526,7 @@
 	},
 	{
 		"name": "Monopoly",
-		"era": "Neofeudal era",
+		"era": "Information era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -609,7 +609,7 @@
 	},
 	{
 		"name": "Collectivism",
-		"era": "Neofeudal era",
+		"era": "Information era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -686,7 +686,7 @@
 	},
 	{
 		"name": "Naturalism",
-		"era": "Industrial era",
+		"era": "Future era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 30,
@@ -765,7 +765,7 @@
 	},
 	{
 		"name": "Mechanization",
-		"era": "Industrial era",
+		"era": "Future era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 0,
@@ -847,7 +847,7 @@
 	},
 	{
 		"name": "Bionics",
-		"era": "Industrial era",
+		"era": "Future era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
