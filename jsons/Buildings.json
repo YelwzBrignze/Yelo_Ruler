@@ -83,7 +83,6 @@
 	},
 	{
 		"name": "Compound Mix GA",
-		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
