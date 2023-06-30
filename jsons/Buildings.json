@@ -73,6 +73,7 @@
     // Civilization Unique
 	{
 		"name": "Compound Mixer",
+		"uniqueTo": "Blackadder",
 		"specialistSlots": { "Engineer": 1 },
 		"cost": 120,
 		"hurryCostModifier": 25,
@@ -83,6 +84,7 @@
 	},
 	{
 		"name": "Compound Mix GA",
+		"uniqueTo": "Blackadder",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -97,7 +99,7 @@
 	},
 	{
 		"name": "Compound Mix GP",
-		"uniqueTo": "Hexlock",
+		"uniqueTo": "Blackadder",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -113,7 +115,7 @@
 	},
 	{
 		"name": "Compound Mix GS",
-		"uniqueTo": "Hexlock",
+		"uniqueTo": "Blackadder",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -128,7 +130,7 @@
 	},
 	{
 		"name": "Compound Mix GM",
-		"uniqueTo": "Hexlock",
+		"uniqueTo": "Blackadder",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -143,7 +145,7 @@
 	},
 	{
 		"name": "Compound Mix GE",
-		"uniqueTo": "Hexlock",
+		"uniqueTo": "Blackadder",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -158,7 +160,7 @@
 	},
 	{
 		"name": "Compound Mix Meltdown",
-		"uniqueTo": "Hexlock",
+		"uniqueTo": "Blackadder",
 		"cost": 140,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -174,7 +176,7 @@
 	// City-state uniques
 	{
 		"name": "Archive of the Arts",
-		"uniqueTo": "The Archive",
+		"uniqueTo": "Colziand",
 		"cost": 1,
 		"culture": 5,
 		"science": 1,
@@ -188,8 +190,8 @@
 	},
 	{
 		"name": "Encyclopedia",
-		"uniqueTo": "The Archive",
-		"replaces": "Monument",
+		"uniqueTo": "Colziand",
+		"requiredBuilding": "Monument",
 		"cost": 1,
 		"culture": 3,
 		"uniques": [
@@ -199,8 +201,8 @@
 	},
 	{
 		"name": "Homestead",
-		"uniqueTo": "Jericho",
-		"replaces": "Monument",
+		"uniqueTo": "Colziand",
+		"requiredBuilding": "Monument",
 		"cost": 1,
 		"culture": 5,
 		"uniques": [
@@ -213,8 +215,8 @@
 	},
 	{
 		"name": "Devil's Monument",
-		"uniqueTo": "Devil's Canyon",
-		"replaces": "Monument",
+		"uniqueTo": "Colziand",
+		"requiredBuilding": "Monument",
 		"gold": 5,
 		"culture": 1,
 		"cost": 1,
@@ -225,7 +227,7 @@
 	},
 	{
 		"name": "Nuclear Storage",
-		"uniqueTo": "Devil's Canyon",
+		"uniqueTo": "Colziand",
 		"cost": 1,
 		"uniques": [
 			"Provides [2] [Uranium]",
@@ -234,8 +236,8 @@
 	},
 	{
 		"name": "Devil's Nuclear Plant",
-		"uniqueTo": "Devil's Canyon",
-		"replaces": "Nuclear Plant",
+		"uniqueTo": "Colziand",
+		"requiredBuilding": "Nuclear Plant",
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
